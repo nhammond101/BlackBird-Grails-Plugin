@@ -1,4 +1,5 @@
-class GrailsPluginBlackbirdGrailsPlugin {
+class BlackbirdGrailsPlugin
+{
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
@@ -10,13 +11,12 @@ class GrailsPluginBlackbirdGrailsPlugin {
             "grails-app/views/error.gsp"
     ]
 
-    // TODO Fill in these fields
-    def author = "Nick Hmamond"
-    def authorEmail = ""
+    def author = "Nick Hammond"
+    def authorEmail = "naughty_nick_1@hotmail.com"
     def title = "Enable the resources for Blackbord JavaScript logging"
     def description = '''\\
 Blackbird JavaScript logging allows the logging of javascript messages to a console with different trace levels.
-see http://www.gscottolson.com/blackbirdjs/
+see http://www.gscottolson.com/blackbirdjs/ for more information
 '''
 
     // URL to the plugin's documentation
