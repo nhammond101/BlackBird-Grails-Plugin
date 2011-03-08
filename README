@@ -1,1 +1,13 @@
-a
+Blackbird logging is useful for debugging any javascript application and can be thought of as a log4js.
+
+This plugins adds blackbird logging to any grails application and simply provides a tag to add the necessary resources ( CSS, JS and images ) bundled into a easily installable plugin.
+
+To use the plugin:
+
+	grails install-plugin ###
+
+Add the following taglib to the head of the pages/layout to import required resources
+
+	<blackbird: resources />
+
+	
